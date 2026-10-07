@@ -1,0 +1,574 @@
+{
+  "desktop": [
+    {
+      "id": "apple",
+      "identical": true,
+      "digest": "85725b184dc94cda41642fdec78b0c1324e27eb0dd21689a6cc0fd93cfb6d59f",
+      "duplicateIds": [],
+      "theme": "apple",
+      "viewport": 1280,
+      "width": 1280
+    },
+    {
+      "id": "netflix",
+      "identical": true,
+      "digest": "85725b184dc94cda41642fdec78b0c1324e27eb0dd21689a6cc0fd93cfb6d59f",
+      "duplicateIds": [],
+      "theme": "netflix",
+      "viewport": 1280,
+      "width": 1280
+    },
+    {
+      "id": "engineering",
+      "identical": true,
+      "digest": "85725b184dc94cda41642fdec78b0c1324e27eb0dd21689a6cc0fd93cfb6d59f",
+      "duplicateIds": [],
+      "theme": "engineering",
+      "viewport": 1280,
+      "width": 1280
+    },
+    {
+      "id": "editorial",
+      "identical": true,
+      "digest": "85725b184dc94cda41642fdec78b0c1324e27eb0dd21689a6cc0fd93cfb6d59f",
+      "duplicateIds": [],
+      "theme": "editorial",
+      "viewport": 1280,
+      "width": 1280
+    },
+    {
+      "id": "future",
+      "identical": true,
+      "digest": "85725b184dc94cda41642fdec78b0c1324e27eb0dd21689a6cc0fd93cfb6d59f",
+      "duplicateIds": [],
+      "theme": "future",
+      "viewport": 1280,
+      "width": 1280
+    },
+    {
+      "id": "experimental",
+      "identical": true,
+      "digest": "85725b184dc94cda41642fdec78b0c1324e27eb0dd21689a6cc0fd93cfb6d59f",
+      "duplicateIds": [],
+      "theme": "experimental",
+      "viewport": 1280,
+      "width": 1280
+    }
+  ],
+  "playback": [
+    {
+      "elapsed": "00:39.17",
+      "lap": "1:28.59",
+      "play": "Pause simulated lap",
+      "status": "Research snapshot · model ready",
+      "theme": "apple"
+    },
+    {
+      "elapsed": "00:42.17",
+      "lap": "1:28.59",
+      "play": "Pause simulated lap",
+      "status": "Research snapshot · model ready",
+      "theme": "netflix"
+    },
+    {
+      "elapsed": "00:45.04",
+      "lap": "1:28.59",
+      "play": "Pause simulated lap",
+      "status": "Research snapshot · model ready",
+      "theme": "engineering"
+    },
+    {
+      "elapsed": "00:48.17",
+      "lap": "1:28.59",
+      "play": "Pause simulated lap",
+      "status": "Research snapshot · model ready",
+      "theme": "editorial"
+    },
+    {
+      "elapsed": "00:51.04",
+      "lap": "1:28.59",
+      "play": "Pause simulated lap",
+      "status": "Research snapshot · model ready",
+      "theme": "future"
+    },
+    {
+      "elapsed": "00:54.23",
+      "lap": "1:28.59",
+      "play": "Pause simulated lap",
+      "status": "Research snapshot · model ready",
+      "theme": "experimental"
+    }
+  ],
+  "mobile": [
+    {
+      "id": "apple",
+      "identical": true,
+      "configSummary": "NOR / MCL38 · soft · 20 kg",
+      "photoVisible": false,
+      "selector": "apple",
+      "viewport": 390,
+      "width": 390
+    },
+    {
+      "id": "netflix",
+      "identical": true,
+      "configSummary": "NOR / MCL38 · soft · 20 kg",
+      "photoVisible": true,
+      "selector": "netflix",
+      "viewport": 390,
+      "width": 390
+    },
+    {
+      "id": "engineering",
+      "identical": true,
+      "configSummary": "NOR / MCL38 · soft · 20 kg",
+      "photoVisible": false,
+      "selector": "engineering",
+      "viewport": 390,
+      "width": 390
+    },
+    {
+      "id": "editorial",
+      "identical": true,
+      "configSummary": "NOR / MCL38 · soft · 20 kg",
+      "photoVisible": true,
+      "selector": "editorial",
+      "viewport": 390,
+      "width": 390
+    },
+    {
+      "id": "future",
+      "identical": true,
+      "configSummary": "NOR / MCL38 · soft · 20 kg",
+      "photoVisible": false,
+      "selector": "future",
+      "viewport": 390,
+      "width": 390
+    },
+    {
+      "id": "experimental",
+      "identical": true,
+      "configSummary": "NOR / MCL38 · soft · 20 kg",
+      "photoVisible": false,
+      "selector": "experimental",
+      "viewport": 390,
+      "width": 390
+    }
+  ],
+  "expanded": [
+    {
+      "bodyDisplay": "grid",
+      "circuitVisible": true,
+      "expanded": "true",
+      "theme": "apple",
+      "viewport": 390,
+      "width": 390
+    },
+    {
+      "bodyDisplay": "grid",
+      "circuitVisible": true,
+      "expanded": "true",
+      "theme": "netflix",
+      "viewport": 390,
+      "width": 390
+    },
+    {
+      "bodyDisplay": "grid",
+      "circuitVisible": true,
+      "expanded": "true",
+      "theme": "engineering",
+      "viewport": 390,
+      "width": 390
+    },
+    {
+      "bodyDisplay": "grid",
+      "circuitVisible": true,
+      "expanded": "true",
+      "theme": "editorial",
+      "viewport": 390,
+      "width": 390
+    },
+    {
+      "bodyDisplay": "grid",
+      "circuitVisible": true,
+      "expanded": "true",
+      "theme": "future",
+      "viewport": 390,
+      "width": 390
+    },
+    {
+      "bodyDisplay": "grid",
+      "circuitVisible": true,
+      "expanded": "true",
+      "theme": "experimental",
+      "viewport": 390,
+      "width": 390
+    }
+  ],
+  "analysisViews": [
+    {
+      "view": "compare",
+      "lap": "1:28.20",
+      "theme": "apple",
+      "title": "Same circuit. Different possibilities.",
+      "viewport": 1280,
+      "visibleView": [
+        "compare-view"
+      ],
+      "width": 1280
+    },
+    {
+      "view": "compare",
+      "lap": "1:28.20",
+      "theme": "netflix",
+      "title": "Same circuit. Different possibilities.",
+      "viewport": 1280,
+      "visibleView": [
+        "compare-view"
+      ],
+      "width": 1280
+    },
+    {
+      "view": "compare",
+      "lap": "1:28.20",
+      "theme": "engineering",
+      "title": "Same circuit. Different possibilities.",
+      "viewport": 1280,
+      "visibleView": [
+        "compare-view"
+      ],
+      "width": 1280
+    },
+    {
+      "view": "compare",
+      "lap": "1:28.20",
+      "theme": "editorial",
+      "title": "Same circuit. Different possibilities.",
+      "viewport": 1280,
+      "visibleView": [
+        "compare-view"
+      ],
+      "width": 1280
+    },
+    {
+      "view": "compare",
+      "lap": "1:28.20",
+      "theme": "future",
+      "title": "Same circuit. Different possibilities.",
+      "viewport": 1280,
+      "visibleView": [
+        "compare-view"
+      ],
+      "width": 1280
+    },
+    {
+      "view": "compare",
+      "lap": "1:28.20",
+      "theme": "experimental",
+      "title": "Same circuit. Different possibilities.",
+      "viewport": 1280,
+      "visibleView": [
+        "compare-view"
+      ],
+      "width": 1280
+    },
+    {
+      "view": "sensitivity",
+      "lap": "1:28.20",
+      "theme": "apple",
+      "title": "Make one change. Follow its effect.",
+      "viewport": 1280,
+      "visibleView": [
+        "sensitivity-view"
+      ],
+      "width": 1280
+    },
+    {
+      "view": "sensitivity",
+      "lap": "1:28.20",
+      "theme": "netflix",
+      "title": "Make one change. Follow its effect.",
+      "viewport": 1280,
+      "visibleView": [
+        "sensitivity-view"
+      ],
+      "width": 1280
+    },
+    {
+      "view": "sensitivity",
+      "lap": "1:28.20",
+      "theme": "engineering",
+      "title": "Make one change. Follow its effect.",
+      "viewport": 1280,
+      "visibleView": [
+        "sensitivity-view"
+      ],
+      "width": 1280
+    },
+    {
+      "view": "sensitivity",
+      "lap": "1:28.20",
+      "theme": "editorial",
+      "title": "Make one change. Follow its effect.",
+      "viewport": 1280,
+      "visibleView": [
+        "sensitivity-view"
+      ],
+      "width": 1280
+    },
+    {
+      "view": "sensitivity",
+      "lap": "1:28.20",
+      "theme": "future",
+      "title": "Make one change. Follow its effect.",
+      "viewport": 1280,
+      "visibleView": [
+        "sensitivity-view"
+      ],
+      "width": 1280
+    },
+    {
+      "view": "sensitivity",
+      "lap": "1:28.20",
+      "theme": "experimental",
+      "title": "Make one change. Follow its effect.",
+      "viewport": 1280,
+      "visibleView": [
+        "sensitivity-view"
+      ],
+      "width": 1280
+    },
+    {
+      "view": "research",
+      "lap": "1:28.20",
+      "theme": "apple",
+      "title": "The evidence behind the estimate.",
+      "viewport": 1280,
+      "visibleView": [
+        "research-view"
+      ],
+      "width": 1280
+    },
+    {
+      "view": "research",
+      "lap": "1:28.20",
+      "theme": "netflix",
+      "title": "The evidence behind the estimate.",
+      "viewport": 1280,
+      "visibleView": [
+        "research-view"
+      ],
+      "width": 1280
+    },
+    {
+      "view": "research",
+      "lap": "1:28.20",
+      "theme": "engineering",
+      "title": "The evidence behind the estimate.",
+      "viewport": 1280,
+      "visibleView": [
+        "research-view"
+      ],
+      "width": 1280
+    },
+    {
+      "view": "research",
+      "lap": "1:28.20",
+      "theme": "editorial",
+      "title": "The evidence behind the estimate.",
+      "viewport": 1280,
+      "visibleView": [
+        "research-view"
+      ],
+      "width": 1280
+    },
+    {
+      "view": "research",
+      "lap": "1:28.20",
+      "theme": "future",
+      "title": "The evidence behind the estimate.",
+      "viewport": 1280,
+      "visibleView": [
+        "research-view"
+      ],
+      "width": 1280
+    },
+    {
+      "view": "research",
+      "lap": "1:28.20",
+      "theme": "experimental",
+      "title": "The evidence behind the estimate.",
+      "viewport": 1280,
+      "visibleView": [
+        "research-view"
+      ],
+      "width": 1280
+    }
+  ],
+  "mobileAnalysisViews": [
+    {
+      "view": "compare",
+      "theme": "apple",
+      "viewport": 390,
+      "visibleView": [
+        "compare-view"
+      ],
+      "width": 390
+    },
+    {
+      "view": "compare",
+      "theme": "netflix",
+      "viewport": 390,
+      "visibleView": [
+        "compare-view"
+      ],
+      "width": 390
+    },
+    {
+      "view": "compare",
+      "theme": "engineering",
+      "viewport": 390,
+      "visibleView": [
+        "compare-view"
+      ],
+      "width": 390
+    },
+    {
+      "view": "compare",
+      "theme": "editorial",
+      "viewport": 390,
+      "visibleView": [
+        "compare-view"
+      ],
+      "width": 390
+    },
+    {
+      "view": "compare",
+      "theme": "future",
+      "viewport": 390,
+      "visibleView": [
+        "compare-view"
+      ],
+      "width": 390
+    },
+    {
+      "view": "compare",
+      "theme": "experimental",
+      "viewport": 390,
+      "visibleView": [
+        "compare-view"
+      ],
+      "width": 390
+    },
+    {
+      "view": "sensitivity",
+      "theme": "apple",
+      "viewport": 390,
+      "visibleView": [
+        "sensitivity-view"
+      ],
+      "width": 390
+    },
+    {
+      "view": "sensitivity",
+      "theme": "netflix",
+      "viewport": 390,
+      "visibleView": [
+        "sensitivity-view"
+      ],
+      "width": 390
+    },
+    {
+      "view": "sensitivity",
+      "theme": "engineering",
+      "viewport": 390,
+      "visibleView": [
+        "sensitivity-view"
+      ],
+      "width": 390
+    },
+    {
+      "view": "sensitivity",
+      "theme": "editorial",
+      "viewport": 390,
+      "visibleView": [
+        "sensitivity-view"
+      ],
+      "width": 390
+    },
+    {
+      "view": "sensitivity",
+      "theme": "future",
+      "viewport": 390,
+      "visibleView": [
+        "sensitivity-view"
+      ],
+      "width": 390
+    },
+    {
+      "view": "sensitivity",
+      "theme": "experimental",
+      "viewport": 390,
+      "visibleView": [
+        "sensitivity-view"
+      ],
+      "width": 390
+    },
+    {
+      "view": "research",
+      "theme": "apple",
+      "viewport": 390,
+      "visibleView": [
+        "research-view"
+      ],
+      "width": 390
+    },
+    {
+      "view": "research",
+      "theme": "netflix",
+      "viewport": 390,
+      "visibleView": [
+        "research-view"
+      ],
+      "width": 390
+    },
+    {
+      "view": "research",
+      "theme": "engineering",
+      "viewport": 390,
+      "visibleView": [
+        "research-view"
+      ],
+      "width": 390
+    },
+    {
+      "view": "research",
+      "theme": "editorial",
+      "viewport": 390,
+      "visibleView": [
+        "research-view"
+      ],
+      "width": 390
+    },
+    {
+      "view": "research",
+      "theme": "future",
+      "viewport": 390,
+      "visibleView": [
+        "research-view"
+      ],
+      "width": 390
+    },
+    {
+      "view": "research",
+      "theme": "experimental",
+      "viewport": 390,
+      "visibleView": [
+        "research-view"
+      ],
+      "width": 390
+    }
+  ],
+  "export": "Export handler displayed the generated-channel notice; browser download event capture timed out, so file-byte comparison was not verified.",
+  "motion": "View-transition snapshots do not intercept pointer events. Rechecked every mobile analysis view after the update."
+}

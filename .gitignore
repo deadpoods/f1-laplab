@@ -1,0 +1,11 @@
+node_modules/
+.vercel/
+.DS_Store
+.openai/
+*.log
+__pycache__/
+*.pyc
+*.zip
+.env
+.env.*
+!.env.example

@@ -1,0 +1,8 @@
+.git/
+.openai/
+node_modules/
+research/
+tests/
+tools/
+server.mjs
+*.log
