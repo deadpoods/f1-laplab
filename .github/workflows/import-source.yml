@@ -1,0 +1,39 @@
+name: Import reviewed F1 LapLab release
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: laplab-source-import
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+      - name: Verify and import the reviewed source archive
+        env:
+          LAPLAP_RELEASE_SHA256: cb01e82fc71b03077935519ff4f620d2697b8a101a54e299764a7d14ee89aa39
+        run: |
+          curl --fail --silent --show-error --location 'https://f1-laplab.vercel.app/downloads/f1-laplab-source.zip' -o /tmp/laplab-source.zip
+          printf '%s  /tmp/laplab-source.zip\n' "$LAPLAP_RELEASE_SHA256" | sha256sum --check
+          python3 - <<'PY'
+          from pathlib import Path
+          import zipfile
+          root = Path.cwd().resolve()
+          with zipfile.ZipFile('/tmp/laplab-source.zip') as archive:
+              entries = archive.infolist()
+              assert len(entries) == 83, 'Unexpected release file count'
+              for entry in entries:
+                  path = Path(entry.filename)
+                  assert not path.is_absolute() and '..' not in path.parts
+                  assert path.parts[0] in {'.gitignore', '.vercelignore', 'CHANGELOG.md', 'CONTRIBUTING.md', 'LICENSE', 'README.md', 'backend', 'dist', 'docs', 'package.json', 'research', 'server.mjs', 'tests', 'tools', 'vercel.json'}
+              archive.extractall(root)
+          Path('.github/workflows/import-source.yml').unlink()
+          PY
+          git config user.name deadpoods
+          git config user.email 120643172+deadpoods@users.noreply.github.com
+          git add --all
+          git commit -m 'Publish F1 LapLab research, experiments and five-round friend duels'
+          git push origin HEAD:main
