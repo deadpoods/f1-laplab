@@ -41,10 +41,14 @@
 ## Completed production checks
 
 - Vercel production deployment `dpl_HTWdEiZV3qh8BmfFVKFfrrX5T7eA` is READY at https://f1-laplab.vercel.app. The original model and data versions remain 0.1.0 / 2024.1.
+- Deployment `dpl_FsSBZq4AWhRT5eoZwhvW7So9TrbJ` is READY with the same reviewed frontend plus a downloadable release archive. Both canonical production aliases resolve to this deployment.
 - On the public origin, the fuel/wing grid computes 45 runs with the same 1:28.20 baseline and 1:27.34 best point. The eight-lap stint computes and the coverage dialog exposes the matched training ranges.
 - Two public-origin players created and joined a durable room, locked different valid setups and raced at 1× time. The finish announcement “Aero Garage crosses first.” was observed while the other car was still running; both full results then appeared, 1:27.53 / 1:28.64, with matching round score and sector explanations.
 - README image and relative document links resolve to the reviewed files. Screenshots show actual solver runs and actual shared-room races.
 
 ## Publication
 
-Source repository: https://github.com/deadpoods/f1-laplab. Final source upload and X showcase publication are still in progress at the time of this record; do not treat those as completed verification.
+- Public source repository: https://github.com/deadpoods/f1-laplab. The 83 reviewed release files were imported in commit `7683fe6045ce5469d30606f840665ba9075caa49`; a local comparison against the reviewed release found no file differences. The one-time import workflow completed successfully and removed itself from the published tree: https://github.com/deadpoods/f1-laplab/actions/runs/37703616289.
+- GitHub's rendered README displays the project cover, six visual directions, actual experiment/race screenshots, architecture, research, limitations and deployment instructions. Repository description, topics and the live website link are set.
+- X showcase: https://x.com/4RyanThinks/status/2107981069832331440. Three posts introduce the product, explain the new experiments and friend rooms, and state the model's evidence limits. Four project images include accessible descriptions; the published thread and media were checked in the browser.
+- The public source ZIP is the reviewed release snapshot used for the import: https://f1-laplab.vercel.app/downloads/f1-laplab-source.zip. Its SHA-256 is `cb01e82fc71b03077935519ff4f620d2697b8a101a54e299764a7d14ee89aa39`. It predates this final publication-record update; the GitHub repository contains the current record.
